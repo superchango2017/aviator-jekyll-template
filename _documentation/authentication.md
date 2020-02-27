@@ -10,15 +10,14 @@ content_markdown: |-
   Send your Client ID and Client secret with an API request to KPN API Store. You will receive an access token in the JSON message body of the response. 
   
   For example: `access_token`: `haf2SDl07E9N7RluNQ4kJ1TkGgso`
-  
-  left_code_blocks:
+
+left_code_blocks:
   - code_block: |-
       {
-        "access_token": haf2SDl07E9N7RluNQ4kJ1TkGgso,
+        access_token": haf2SDl07E9N7RluNQ4kJ1TkGgso
       }
     title: Response
     language: json
-
 right_code_blocks:
   - code_block: |2-
        $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
