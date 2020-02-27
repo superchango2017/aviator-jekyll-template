@@ -17,11 +17,11 @@ left_code_blocks:
     language:
 right_code_blocks:
   - code_block: |2-
-       $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
-         alert(data);
-       });
-    title: JQuery
-    language: javascript
+$ curl -X GET \
+       --header 'Accept: application/json' \
+       'https://dapi.certimint.com/v1/seal/list'
+    title: Query
+    language: cURL
   - code_block: |2-
        curl http://api.myapp.com/books?token=YOUR_APP_KEY
     title: Curl
