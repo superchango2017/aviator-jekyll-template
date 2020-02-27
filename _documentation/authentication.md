@@ -5,9 +5,7 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Authentication is the process of proving your identity to the system. The KPN API Store uses the OAuth 2.0 Client Credentials Grant type. Client IDs and Client secrets are provided when you create an app in the My apps dashboard of the KPN API Store.
-
-Send your Client ID and Client secret with an API request to KPN API Store. You will receive an access token in the JSON message body of the response. For example: `access_token`: `haf2SDl07E9N7RluNQ4kJ1TkGgso`
+  Authentication is the process of proving your identity to the system. The KPN API Store uses the OAuth 2.0 Client Credentials Grant type. Client IDs and Client secrets are provided when you create an app in the My apps dashboard of the KPN API Store. Send your Client ID and Client secret with an API request to KPN API Store. You will receive an access token in the JSON message body of the response. For example: `access_token`: `haf2SDl07E9N7RluNQ4kJ1TkGgso`
   
   {: .error}
 left_code_blocks:
