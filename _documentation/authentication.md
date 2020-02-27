@@ -11,6 +11,14 @@ content_markdown: |-
   
   For example: `access_token`: `haf2SDl07E9N7RluNQ4kJ1TkGgso`
   
+  left_code_blocks:
+  - code_block: |-
+      {
+        "access_token": haf2SDl07E9N7RluNQ4kJ1TkGgso,
+      }
+    title: Response
+    language: json
+  
   {: .error}
 left_code_blocks:
   - code_block:
