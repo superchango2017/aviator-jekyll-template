@@ -13,9 +13,24 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-      {
-        access_token": haf2SDl07E9N7RluNQ4kJ1TkGgso
-      }
+    {
+    "refresh_token_expires_in": "0",
+    "api_product_list": "[xxxxxxx]",
+    "api_product_list_json": [
+        " xxxxxxx"
+    ],
+    "organization_name": "kpn",
+    "developer_email": "demo123@kpn.com",
+    "token_type": "Bearer",
+    "issued_at": "1521039195424",
+    "client_id": "APP_CLIENT_ID",
+    "access_token": "haf2SDl07E9N7RluNQ4kJ1TkGgso",
+    "application_name": "6e38edxxxxxxxxxxxxxxxx4065d79c",
+    "scope": "",
+    "expires_in": "3599",
+    "refresh_count": "0",
+    "status": "approved"
+    }
     title: Response
     language: json
 right_code_blocks:
